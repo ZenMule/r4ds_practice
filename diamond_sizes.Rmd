@@ -1,0 +1,58 @@
+---
+title: "Diamond sizes"
+author: "Miao Zhang"
+date: "11/2/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(ggplot2)
+library(dplyr)
+
+smaller <- diamonds %>%
+  filter(carat <= 2.5)
+```
+
+We have data about `r nrow(diamonds)` diamonds. Only `r nrow(diamonds) - nrow(smaller)` are larger than 2.5 carats. The distribution of the remainder is shown below:
+
+```{r, echo=FALSE}
+smaller %>%
+  ggplot(aes(carat)) +
+  geom_freqpoly(binwidth = 0.01)
+```
+
+*italic*
+_italic_
+**bold**
+__bold__
+
+`library(tidyverse)`
+
+*   Bulleted item 1
+*   item 2
+    * item2a
+    * item2b
+1.  Numbered item 1
+2.  Numbered item 2
+
+<http://google.com>
+[google](http://google.com)
+
+
+First Header  |   Second Header
+--------------|----------------
+Cell 1        |   Cell 2
+Cell 3        |   Cell 4
+
+```{r}
+mtcars[1:5, 1:10]
+```
+
+```{r}
+knitr::kable(
+  mtcars[1:5, ],
+  caption = "A knitr kable"
+)
+```
+
+

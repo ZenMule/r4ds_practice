@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1541354507052.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "302349105",
+    "id" : "BA8C628A",
+    "lastKnownWriteTime" : 1541354433,
+    "last_content_update" : 1541354433,
+    "path" : "~/Research/rProjects/r4ds_mz/graphics_communication.R",
+    "project_path" : "graphics_communication.R",
+    "properties" : {
+        "cursorPosition" : "8,34",
+        "scrollLine" : "10",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

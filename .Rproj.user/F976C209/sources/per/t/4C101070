@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1541368022327.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1612737816",
+    "id" : "4C101070",
+    "lastKnownWriteTime" : 1541372477,
+    "last_content_update" : 1541372477007,
+    "path" : "~/Research/rProjects/R_default/PCA_ggbiplot.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "24,21",
+        "scrollLine" : "7",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

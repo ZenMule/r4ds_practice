@@ -1,0 +1,26 @@
+library(devtools)
+install_github("vqv/ggbiplot")
+
+library(ggbiplot)
+
+## Use prcomp() ####
+mtcars_pca1 <- prcomp(mtcars[, c(1:7, 10, 11)], center = T, scale = T)
+str(mtcars_pca)
+
+# sqrt of eigenvalues
+mtcars_pca1$sdev
+# Loadings
+mtcars_pca1$rotation
+# PC scores
+mtcars_pca1$x
+
+summary(mtcars_pca1)
+
+# plot
+ggbiplot(mtcars_pca1)
+ggbiplot(mtcars_pca1, labels = rownames(mtcars))
+
+## Use princomp()
+mtcars_pca2 <- princomp(mtcars[, c(1:7, 10, 11)], cor = T)
+# sqrt of eigenvalues
+mtcars_pca2$sdev
